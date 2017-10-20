@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  tools:context="com.example.android.inventory.EditorActivity">
+	
+	<!-- Product name field -->
+	<LinearLayout
+		style="@style/EditorSubLayoutStyle">
+		
+		<TextView
+			style="@style/TextLabelStyle"
+			android:text="@string/product_name"/>
+		
+		<EditText
+			android:id="@+id/et_product_name"
+			style="@style/EditTextStyle"
+			android:hint="@string/name_hint"
+			android:inputType="textCapWords"/>
+	</LinearLayout>
+	
+	<!-- Product quantity field -->
+	<LinearLayout style="@style/EditorSubLayoutStyle">
+		
+		<TextView
+			style="@style/TextLabelStyle"
+			android:text="@string/product_quantity"/>
+		
+		<LinearLayout
+			style="@style/QuantityLayoutStyle">
+			
+			<android.support.design.widget.FloatingActionButton
+				android:id="@+id/details_quantity_decrease_button"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@mipmap/ic_reduce"/>
+			
+			<TextView
+				android:id="@+id/tv_product_quantity"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="2"
+				android:gravity="center"
+				android:textColor="@color/primaryTextColor"
+				android:text="0"/>
+			
+			<android.support.design.widget.FloatingActionButton
+				android:id="@+id/details_quantity_increase_button"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@mipmap/ic_add"/>
+		</LinearLayout>
+	
+	
+	</LinearLayout>
+	
+	<!-- Product price field -->
+	<LinearLayout style="@style/EditorSubLayoutStyle">
+		
+		<TextView
+			style="@style/TextLabelStyle"
+			android:text="@string/product_price"/>
+		
+		<RelativeLayout
+			style="@style/EditorPriceLayoutStyle">
+			
+			<EditText
+				android:id="@+id/et_product_price"
+				style="@style/PriceEditTextStyle"
+				android:hint="@string/product_price"
+				android:inputType="number"/>
+			
+			<ImageView
+				style="@style/PriceUnitsStyle"
+				android:src="@drawable/ic_currency_sign_dollar"/>
+		
+		</RelativeLayout>
+	
+	</LinearLayout>
+	
+	<!-- Product image -->
+	
+	<RelativeLayout style="@style/EditorSubLayoutStyle">
+		
+		<TextView
+			style="@style/PhotoLabelStyle"
+			android:text="@string/product_photo"/>
+		
+		<!-- Add product action button -->
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fab_add_product_image"
+			style="@style/FabAddPhotoStyle"
+			android:src="@drawable/ic_add_a_photo"/>
+	</RelativeLayout>
+	
+	<ImageView
+		android:id="@+id/iv_product_image"
+		style="@style/ProductImageStyle"
+		android:src="@drawable/ic_add_a_photo"/>
+
+
+</LinearLayout>

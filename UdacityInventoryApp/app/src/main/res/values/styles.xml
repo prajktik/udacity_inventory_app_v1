@@ -1,0 +1,144 @@
+<resources>
+	
+	<!-- Base application theme. -->
+	<style name="AppTheme"
+		   parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	
+	<!--Styles used in activity_catalog.xml -->
+	<style name="EmptyViewImageStyle">
+		<item name="android:layout_width">240dp</item>
+		<item name="android:layout_height">200dp</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:adjustViewBounds">true</item>
+		<item name="android:scaleType">fitXY</item>
+	</style>
+	
+	<style name="EmptyViewTitleStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_below">@id/iv_empty_view</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:fontFamily">sans-serif</item>
+		<item name="android:textAppearance">?android:textAppearanceMedium</item>
+		<item name="android:textColor">@color/colorSecondaryDark</item>
+	</style>
+	
+	<style name="EmptyViewSubTitleStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:fontFamily">sans-serif</item>
+		<item name="android:textAppearance">?android:textAppearanceSmall</item>
+		<item name="android:textColor">@android:color/darker_gray</item>
+	</style>
+	
+	<style name="FabAddProductStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_margin">@dimen/padding_16</item>
+	</style>
+	
+	
+	<!--Styles used in activity_editor.xml -->
+	<style name="EditorSubLayoutStyle">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:paddingLeft">@dimen/padding_16</item>
+		<item name="android:paddingRight">@dimen/padding_16</item>
+	</style>
+	
+	<style name="TextLabelStyle">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:paddingTop">16dp</item>
+		<item name="android:textColor">@color/colorSecondaryDark</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textAppearance">?android:textAppearanceSmall</item>
+	</style>
+	
+	<style name="EditTextStyle">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">2</item>
+		<item name="android:fontFamily">sans-serif-light</item>
+		<item name="android:paddingLeft">@dimen/padding_4</item>
+		<item name="android:textAppearance">?android:textAppearanceMedium</item>
+	</style>
+	
+	<style name="EditorPriceLayoutStyle">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">2</item>
+		<item name="android:paddingLeft">@dimen/padding_4</item>
+		<item name="android:paddingStart">@dimen/padding_4</item>
+	</style>
+	
+	<style name="PriceEditTextStyle">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:fontFamily">sans-serif-light</item>
+		<item name="android:paddingLeft">@dimen/padding_4</item>
+		<item name="android:textAppearance">?android:textAppearanceMedium</item>
+	</style>
+	
+	<style name="PriceUnitsStyle">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:paddingRight">@dimen/padding_8</item>
+		<item name="android:paddingTop">@dimen/padding_16</item>
+	</style>
+	
+	
+	<style name="PhotoLabelStyle">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:paddingTop">16dp</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:textColor">@color/colorSecondaryDark</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:textAppearance">?android:textAppearanceSmall</item>
+	</style>
+	
+	<style name="FabAddPhotoStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_margin">@dimen/padding_16</item>
+	</style>
+	
+	<style name="ProductImageStyle">
+		<item name="android:layout_width">200dp</item>
+		<item name="android:layout_height">200dp</item>
+		<item name="android:paddingTop">@dimen/padding_16</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:scaleType">fitCenter</item>
+	</style>
+	
+	<style name="QuantityLayoutStyle">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">3</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@android:drawable/screen_background_light_transparent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_marginTop">@dimen/padding_8</item>
+		<item name="android:layout_marginBottom">@dimen/padding_8</item>
+		<item name="android:layout_marginStart">@dimen/padding_16</item>
+		<item name="android:paddingTop">@dimen/padding_8</item>
+		<item name="android:paddingBottom">@dimen/padding_8</item>
+	</style>
+
+
+</resources>

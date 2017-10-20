@@ -1,0 +1,82 @@
+<resources>
+	<string name="app_name">InventoryApp</string>
+	
+	<string name="empty_view_title_text">The Inventory is Empty</string>
+	<string name="empty_view_subtitle_text">Start by adding a Product!</string>
+	
+	<string name="product_name">Name : </string>
+	<string name="name_hint">Name</string>
+	<string name="product_price">Price : </string>
+	<string name="price_hint">@string/currency_sign</string>
+	<string name="product_photo">Photo : </string>
+	<string name="product_quantity">Quantity:</string>
+	<string name="quantity_hint">Quantity</string>
+	<string name="currency_sign">$</string>
+	<string name="in_stock">In stock</string>
+	<string name="out_of_stock">Sold Out</string>
+	
+	<string name="toast_msg_sold_out">Product is sold out!</string>
+	<string name="toast_msg_quantity_updated">Product Quantity updated successfully.</string>
+	<string name="toast_msg_error_quantity_update">Could not update quantity!</string>
+	<string name="product_details">Product Details</string>
+	
+	<string name="action_insert_dummy_data">Insert Dummy Data</string>
+	
+	<string name="action_delete_all_entries">Delete All Products</string>
+	
+	<string name="editor_activity_title_new_product">Add a Product</string>
+	
+	<string name="editor_activity_title_edit_product">Edit Product</string>
+	
+	<string name="action_save">Save</string>
+	
+	<string name="action_delete">Delete</string>
+	
+	<string name="action_order">Order</string>
+	
+	<string name="editor_insert_product_successful">Product saved</string>
+	
+	<string name="editor_insert_product_failed">Error with saving product</string>
+	
+	<string name="editor_update_product_successful">Product updated</string>
+	
+	<string name="editor_update_product_failed">Error with updating product!</string>
+	
+	<string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+	
+	<string name="discard">Discard</string>
+	
+	<string name="keep_editing">Keep Editing</string>
+	
+	<string name="editor_delete_product_successful">Product deleted</string>
+	
+	<string name="editor_delete_product_failed">Error with deleting product!</string>
+	
+	<string name="delete_dialog_msg">Delete this product?</string>
+	
+	<string name="delete">Delete</string>
+	
+	<string name="cancel">Cancel</string>
+	
+	<string name="all_fields_required">Please enter all the details.</string>
+	
+	<string name="delete_all_dialog_msg">Delete all products?</string>
+	
+	<string name="order_email_subject">Order Product</string>
+	<string name="place_order_for">Place Order for </string>
+	<string name="order_message"> \nEnter message here... </string>
+	
+	<string name="delete_current_product">Delete current product?</string>
+	<string name="dialog_yes">Yes</string>
+	<string name="dialog_no">No</string>
+	<string name="delete_fail">Could not delete product!</string>
+	<string name="delete_success">Product deleted successfully!</string>
+	
+	<string name="add_product">Add Product</string>
+	
+	<string name="edit_product">Edit Product</string>
+	
+	<string name="select_image">Select photo</string>
+
+
+</resources>
